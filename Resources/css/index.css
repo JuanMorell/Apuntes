@@ -1,0 +1,41 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  
+  
+  h1 {
+    color: SeaGreen;
+  }
+  
+  
+  p {
+    font-size: 18px;
+    font-weight: bold;
+  } 
+
+  .italic {
+    font-size: 16px;
+    font-weight: lighter;
+    font-style: italic;
+  }
+
+  li {
+    font-size: 16px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  .sidebar {
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: flex;
+    overflow-x: hidden;
+    flex-direction: column;
+    background: SeaGreen;
+    padding: 25px 30px;
+  }
